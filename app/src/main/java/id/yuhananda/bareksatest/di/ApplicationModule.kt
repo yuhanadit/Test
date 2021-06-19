@@ -10,6 +10,7 @@ import id.yuhananda.bareksatest.data.source.ProductDataSource
 import id.yuhananda.bareksatest.data.source.local.BareksaTestDatabase
 import id.yuhananda.bareksatest.data.source.local.ProductLocalDataSource
 import id.yuhananda.bareksatest.data.source.remote.ProductRemoteDataSource
+import id.yuhananda.bareksatest.util.ContextUtil
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import javax.inject.Qualifier
@@ -20,23 +21,23 @@ import javax.inject.Singleton
 object ApplicationModule {
     @Qualifier
     @Retention(AnnotationRetention.RUNTIME)
-    annotation class TasksRemoteDataSource
+    annotation class ProductRemoteDataSource
 
     @Qualifier
     @Retention(AnnotationRetention.RUNTIME)
-    annotation class TasksLocalDataSource
+    annotation class ProductLocalDataSource
 
     @Singleton
-    @TasksRemoteDataSource
+    @ProductRemoteDataSource
     @Provides
-    fun provideProductRemoteDataSource(): ProductDataSource {
-        return ProductRemoteDataSource
+    fun provideProductRemoteDataSource(contextUtil: ContextUtil): ProductDataSource {
+        return ProductRemoteDataSource(contextUtil)
     }
 
     @Singleton
-    @TasksLocalDataSource
+    @ProductLocalDataSource
     @Provides
-    fun provideTasksLocalDataSource(
+    fun provideProductLocalDataSource(
         database: BareksaTestDatabase,
         ioDispatcher: CoroutineDispatcher
     ): ProductDataSource {
