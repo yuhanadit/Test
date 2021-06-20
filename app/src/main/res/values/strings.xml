@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bareksa Test</string>
+    <string name="jenis_reksa_dana">Jenis Reksa Dana</string>
+    <string name="imbal_hasil">Imbal Hasil</string>
+    <string name="dana_kelolaan">Dana kelolaan</string>
+    <string name="min_pembelian">Min. pembelian</string>
+    <string name="jangka_waktu">Jangka Waktu</string>
+    <string name="tingkat_risiko">Tingkat risiko</string>
+    <string name="peluncuran">Peluncuran</string>
+    <string name="detail">Detail</string>
+    <string name="beli">Beli</string>
+    <string name="_1w">1W</string>
+    <string name="_1m">1M</string>
+    <string name="_1y">1Y</string>
+    <string name="_3y">3Y</string>
+    <string name="_5y">5Y</string>
+    <string name="_10y">10Y</string>
+    <string name="all">All</string>
+    <string name="_2_5">2.5%</string>
+    <string name="_8_53">8.53%</string>
+    <string name="_10">10%</string>
+    <string name="_20_jan_2020">(20 Jan 2020)</string>
+</resources>
