@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="whiteActionBar">
+        <item name="colorPrimary">@color/on_primary_highemphasis</item>
+    </style>
+
+    <style name="body2Medium" parent="TextAppearance.AppCompat.Body2">
+        <item name="fontFamily">@font/opensans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">22dp</item>
+    </style>
+
+    <style name="headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/montserrat_header</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">26dp</item>
+        <item name="android:letterSpacing">0.25</item>
+    </style>
+
+</resources>
