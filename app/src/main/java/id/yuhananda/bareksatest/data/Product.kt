@@ -2,6 +2,7 @@ package id.yuhananda.bareksatest.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
+import androidx.room.Ignore
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "product")
@@ -27,4 +28,7 @@ data class Product(
     val launching: String = "",
     @ColumnInfo(name = "growth")
     val growth: String = ""
-)
+) {
+    @Ignore
+    var growthObject: List<ProductGrowth> = arrayListOf()
+}

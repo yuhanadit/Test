@@ -3,6 +3,9 @@ buildscript {
     ext.kotlin_version = "1.4.32"
     ext.hilt_version = '2.35'
     ext.room_version = '2.3.0'
+    ext.gson_version = '2.8.6'
+    ext.chart_version = 'v3.1.0'
+    ext.glide_version = '4.12.0'
 
     repositories {
         google()
@@ -22,6 +25,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 

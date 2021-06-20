@@ -4,9 +4,10 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayoutMediator
+import dagger.hilt.android.AndroidEntryPoint
 import id.yuhananda.bareksatest.databinding.ActivityComparisonBinding
 
-
+@AndroidEntryPoint
 class ComparisonActivity : AppCompatActivity() {
     private lateinit var binding: ActivityComparisonBinding
 

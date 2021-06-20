@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Bareksa Test</string>
+    <string name="jenis_reksa_dana">Jenis Reksa Dana</string>
+    <string name="imbal_hasil">Imbal Hasil</string>
+    <string name="dana_kelolaan">Dana kelolaan</string>
+    <string name="min_pembelian">Min. pembelian</string>
+    <string name="jangka_waktu">Jangka Waktu</string>
+    <string name="tingkat_risiko">Tingkat risiko</string>
+    <string name="peluncuran">Peluncuran</string>
+    <string name="detail">Detail</string>
+    <string name="beli">Beli</string>
 </resources>

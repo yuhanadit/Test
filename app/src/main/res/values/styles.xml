@@ -5,17 +5,41 @@
         <item name="colorPrimary">@color/on_primary_highemphasis</item>
     </style>
 
-    <style name="body2Medium" parent="TextAppearance.AppCompat.Body2">
+    <style name="body2Medium" parent="TextAppearance.MaterialComponents.Body2">
         <item name="fontFamily">@font/opensans</item>
         <item name="android:textSize">14sp</item>
         <item name="lineHeight">22dp</item>
+    </style>
+
+    <style name="subtitle2Medium" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/montserrat_header</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">18dp</item>
+        <item name="android:textColor">@color/surface_dark</item>
+    </style>
+
+    <style name="caption" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/montserrat_body</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">16dp</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="headline6" parent="TextAppearance.MaterialComponents.Headline6">
         <item name="fontFamily">@font/montserrat_header</item>
         <item name="android:textSize">20sp</item>
         <item name="lineHeight">26dp</item>
-        <item name="android:letterSpacing">0.25</item>
     </style>
 
+    <style name="button" parent="Widget.MaterialComponents.Button">
+        <item name="fontFamily">@font/montserrat_header</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">18dp</item>
+    </style>
+
+    <style name="outlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="fontFamily">@font/montserrat_header</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">18dp</item>
+    </style>
 </resources>

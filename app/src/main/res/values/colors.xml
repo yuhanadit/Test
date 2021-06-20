@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="black">#000000</color>
     <color name="onsurface_highemphasis">#DE000000</color>
+    <color name="onsurface_mediumemphasis">#99000000</color>
     <color name="onsurface_disabled">#61000000</color>
     <color name="on_primary_highemphasis">#FFFFFF</color>
     <color name="surface_light">#FFFFFF</color>
+    <color name="surface_dark">#F5F5F5</color>
     <color name="primary_800">#4B8B26</color>
+    <color name="primary_500">#82C341</color>
+    <color name="green_50">#E2EBDD</color>
+    <color name="violet_50">#E0DBEB</color>
+    <color name="navy_50">#E0E8EE</color>
 </resources>

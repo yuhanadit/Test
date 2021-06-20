@@ -1,6 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.BareksaTest" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/primary_800</item>
+        <item name="colorSecondary">@color/primary_500</item>
+
         <!-- Custom action bar theme -->
         <item name="actionBarTheme">@style/whiteActionBar</item>
         <!-- Status bar color. -->
