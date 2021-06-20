@@ -9,4 +9,15 @@
     <string name="peluncuran">Peluncuran</string>
     <string name="detail">Detail</string>
     <string name="beli">Beli</string>
+    <string name="_1w">1W</string>
+    <string name="_1m">1M</string>
+    <string name="_1y">1Y</string>
+    <string name="_3y">3Y</string>
+    <string name="_5y">5Y</string>
+    <string name="_10y">10Y</string>
+    <string name="all">All</string>
+    <string name="_2_5">2.5%</string>
+    <string name="_8_53">8.53%</string>
+    <string name="_10">10%</string>
+    <string name="_20_jan_2020">(20 Jan 2020)</string>
 </resources>
