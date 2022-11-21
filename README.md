@@ -1,5 +1,5 @@
 # Bareksa-Test
-Bareksa Take Home Test
+Take Home Test
 
 ## Objective
 To understand candidate's technical competencies, which includes but not limited to:
