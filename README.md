@@ -1,4 +1,4 @@
-# Bareksa-Test
+# Test
 Take Home Test
 
 ## Objective
